@@ -16,6 +16,9 @@
 		F675B8D2165EEE6E00C575F5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F675B8D1165EEE6E00C575F5 /* Default.png */; };
 		F675B8D4165EEE6E00C575F5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F675B8D3165EEE6E00C575F5 /* Default@2x.png */; };
 		F675B8D6165EEE6E00C575F5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F675B8D5165EEE6E00C575F5 /* Default-568h@2x.png */; };
+		F675B8E6165EEFDC00C575F5 /* TKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F675B8E5165EEFDC00C575F5 /* TKViewController.m */; };
+		F675B8EE165EF08E00C575F5 /* TKCollectionViewPagingLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F675B8ED165EF08E00C575F5 /* TKCollectionViewPagingLayout.m */; };
+		F675B8F0165EF0EB00C575F5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F675B8EF165EF0EB00C575F5 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,11 @@
 		F675B8D1165EEE6E00C575F5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		F675B8D3165EEE6E00C575F5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		F675B8D5165EEE6E00C575F5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F675B8E4165EEFDC00C575F5 /* TKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKViewController.h; sourceTree = "<group>"; };
+		F675B8E5165EEFDC00C575F5 /* TKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKViewController.m; sourceTree = "<group>"; };
+		F675B8EC165EF08E00C575F5 /* TKCollectionViewPagingLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCollectionViewPagingLayout.h; sourceTree = "<group>"; };
+		F675B8ED165EF08E00C575F5 /* TKCollectionViewPagingLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCollectionViewPagingLayout.m; sourceTree = "<group>"; };
+		F675B8EF165EF0EB00C575F5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F675B8F0165EF0EB00C575F5 /* QuartzCore.framework in Frameworks */,
 				F675B8C0165EEE6E00C575F5 /* UIKit.framework in Frameworks */,
 				F675B8C2165EEE6E00C575F5 /* Foundation.framework in Frameworks */,
 				F675B8C4165EEE6E00C575F5 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +77,7 @@
 		F675B8BE165EEE6E00C575F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F675B8EF165EF0EB00C575F5 /* QuartzCore.framework */,
 				F675B8BF165EEE6E00C575F5 /* UIKit.framework */,
 				F675B8C1165EEE6E00C575F5 /* Foundation.framework */,
 				F675B8C3165EEE6E00C575F5 /* CoreGraphics.framework */,
@@ -80,6 +90,8 @@
 			children = (
 				F675B8CE165EEE6E00C575F5 /* TKAppDelegate.h */,
 				F675B8CF165EEE6E00C575F5 /* TKAppDelegate.m */,
+				F675B8DC165EEE7B00C575F5 /* Layout */,
+				F675B8E7165EF03C00C575F5 /* View Controller */,
 				F675B8C6165EEE6E00C575F5 /* Supporting Files */,
 			);
 			path = TKLayoutGallery;
@@ -97,6 +109,24 @@
 				F675B8D5165EEE6E00C575F5 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F675B8DC165EEE7B00C575F5 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				F675B8EC165EF08E00C575F5 /* TKCollectionViewPagingLayout.h */,
+				F675B8ED165EF08E00C575F5 /* TKCollectionViewPagingLayout.m */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+		F675B8E7165EF03C00C575F5 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F675B8E4165EEFDC00C575F5 /* TKViewController.h */,
+				F675B8E5165EEFDC00C575F5 /* TKViewController.m */,
+			);
+			name = "View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +197,8 @@
 			files = (
 				F675B8CC165EEE6E00C575F5 /* main.m in Sources */,
 				F675B8D0165EEE6E00C575F5 /* TKAppDelegate.m in Sources */,
+				F675B8E6165EEFDC00C575F5 /* TKViewController.m in Sources */,
+				F675B8EE165EF08E00C575F5 /* TKCollectionViewPagingLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
