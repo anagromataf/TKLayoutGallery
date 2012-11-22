@@ -25,5 +25,6 @@ Pod::Spec.new do |s|
     s.source_files        = 'TKLayoutGallery/TKCollectionViewPagingLayout.{h,m}'
     s.public_header_files = 'TKLayoutGallery/TKCollectionViewPagingLayout.h'
     s.requires_arc        = true
+    s.frameworks          = ['QuartzCore']
 end
 
