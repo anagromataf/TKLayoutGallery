@@ -40,6 +40,7 @@
 		F675B8EC165EF08E00C575F5 /* TKCollectionViewPagingLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKCollectionViewPagingLayout.h; sourceTree = "<group>"; };
 		F675B8ED165EF08E00C575F5 /* TKCollectionViewPagingLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKCollectionViewPagingLayout.m; sourceTree = "<group>"; };
 		F675B8EF165EF0EB00C575F5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F675B8F9165EF1B500C575F5 /* TKLayoutGallery.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TKLayoutGallery.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 		F675B8B0165EEE6E00C575F5 = {
 			isa = PBXGroup;
 			children = (
+				F675B8F9165EF1B500C575F5 /* TKLayoutGallery.podspec */,
 				F675B8C5165EEE6E00C575F5 /* TKLayoutGallery */,
 				F675B8BE165EEE6E00C575F5 /* Frameworks */,
 				F675B8BC165EEE6E00C575F5 /* Products */,
@@ -309,6 +311,7 @@
 				F675B8DB165EEE6E00C575F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
